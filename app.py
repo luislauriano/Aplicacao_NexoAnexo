@@ -12,8 +12,8 @@ import  base64
 main_bg = "img/fundo2.jpg"
 main_bg_ext = "img/fundo2.jpg"
 
-side_bg = "img/logo.jpg"
-side_bg_ext = "img/logo.jpg"
+side_bg = "img/fundo_sd.png"
+side_bg_ext = "img/fundo_sd.png"
 
 
 st.markdown(
@@ -33,10 +33,7 @@ st.markdown(
     
     .sidebar .sidebar-content {{
       
-      background-image: linear-gradient(#2e7bcf,#2e7bcf);
-    
-      background: url("img/logo.jpg")
-      
+      background: url(data:image/{side_bg_ext};base64,{base64.b64encode(open(side_bg, "rb").read()).decode()})
     }}
 
    .Widget>label {{
