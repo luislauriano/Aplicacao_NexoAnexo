@@ -1,5 +1,5 @@
 
-# Aplicação/Dashboard desenvolvido para o meu Projeto de Análise de Dados dos Álbuns do artista NexoAnexo.
+# Aplicação/Dashboard desenvolvido para o Projeto de Análise de Dados dos Álbuns do artista NexoAnexo.
 
 Este repositório contém a Aplicação/Dashboard construído com o framework Streamlit do Python para o Projeto [Spotify & Python & Data Science - Análise de Dados dos Álbuns do artista NexoAnexo](https://github.com/luislauriano/Data_Science/tree/master/Spotify%20%26%20Python%20%26%20Data%20Science). Após a aplicação ter sido finalizada, coloquei a mesma disponivel na web através do heroku. 
 
